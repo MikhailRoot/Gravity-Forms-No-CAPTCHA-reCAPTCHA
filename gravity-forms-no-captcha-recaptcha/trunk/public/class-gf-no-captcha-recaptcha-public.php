@@ -188,7 +188,7 @@ class GFNoCaptchaReCaptcha_Public {
                     'normal';
 
                 // Public sees CAPTCHA field
-                return '<div class="ginput_container"><div class="g-recaptcha" data-sitekey="' . $site_key . '" data-theme="' . $theme . '" data-size="' . $theme_size . '"></div></div>';
+                return '<div class="ginput_container nocaptcha"><div class="g-recaptcha" data-sitekey="' . $site_key . '" data-theme="' . $theme . '" data-size="' . $theme_size . '"></div></div>';
 
             } else {
 
